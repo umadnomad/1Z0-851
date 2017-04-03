@@ -5,9 +5,9 @@ Develop code that declares classes ( including abstract and all forms of nested
 classes ), interfaces, and enums, and includes the appropiate use of package and
  import statements ( including static imports ).
 
-Sviluppare codice che dichiara classi ( includendo quelle astratte e tutte le fo
-rme di classi nidificate ), interfacce, enumerazioni, includendo l'uso appropiat
-o degli statement package e import ( includendo gli static imports ).
+Sviluppare codice che dichiara classi ( includendo le classi astratte e tutte le
+ forme di classi nidificate ), interfacce ed enumerazioni e fa uso appropiato de
+gli statement package e import ( includendo gli static imports ).
 --------------------------------------------------------------------------------
 1.2 INTERFACES
 
@@ -23,9 +23,9 @@ Develop code that declares, initializes, and uses primitives, arrays, enums, and
  objects as static, istance, and local variables. Also, use legal identifiers fo
 r variable names.
 
-Sviluppare codice che dichiara, inizializza, usa primitivi, array, enums, oggett
-i come variabili statiche, di istanza e locali. Utilizzare inoltre identificator
-i legali come nomi delle variabili.
+Sviluppare codice che dichiara, inizializza e usa primitivi, array, enums e ogge
+tti come variabili statiche, di istanza e locali. Utilizzare inoltre identificat
+ori legali come nomi delle variabili.
 --------------------------------------------------------------------------------
 1.4 METHODS
 
@@ -35,7 +35,17 @@ p code that declares and uses a variable-length argument list.
 
 Sviluppare codice che dichiara metodi statici e non e, - se applicabile - dare l
 oro nomi che aderiscono agli standard di nomenclatura JavaBeans. Sviluppare inol
-tre codice che dichiara e usa una lista di argomenti dalla lunghezza variabile.
+tre codice che dichiara e usa parametri dalla lunghezza variabile.
+--------------------------------------------------------------------------------
+1.5 DETERMINE CORRECT OVERRIDE/OVERLOAD
+
+Given a code example, determine if a method is correctly overriding or overloadi
+ng another method, and identify legal return values (including covariant returns
+), for the method.
+
+Dato il codice in esempio, determinare se un metodo sovrascrive o sovraccarica c
+orrettamente un'altro metodo e identificare, inoltre, i valori di ritorno leciti
+ (includendo i ritorni covariati) di tale metodo.
 --------------------------------------------------------------------------------
 5.1 ENCAPSULATION
 
@@ -43,7 +53,7 @@ Develop code that implements thight encapsulation, loose coupling, and high cohe
 sion in classes, and describe the benefis
 
 Sviluppare classi indipendenti tra loro, di grande coesione interna e facenti us
-o di incapsulamento stretto
+o di incapsulamento stretto. Descrirne infine i benefici.
 --------------------------------------------------------------------------------
 5.2 POLYMORPHISM
 
@@ -51,10 +61,20 @@ Given a scenario, develop code that demonstrates the use of polymorphism. Furthe
 r, determine when casting will be necessary and recognize compiler vs. runtime e
 rrors related to object reference casting.
 
-Dato un certo scenario, sviluppare codice che dimostra l'uso del polimorfismo. I
-noltre, stabilire quando sarà necessario fare un Cast e saper discernere gli er
-rori, di compilazione rispetto a quelli di esecuzione, inerenti al cast di refer
-enze di oggetti
+Dato uno scenario, sviluppare codice che dimostra l'uso del polimorfismo. Inoltr
+e, stabilire quando sarà necessario fare un Cast e saper discernere errori di c
+ompilazione rispetto a quelli di esecuzione inerenti al cast di referenze di ogg
+etti
+--------------------------------------------------------------------------------
+5.4 OVERLOADED/OVERRIDDEN METHOD DECLARATION AND INVOCATIONS
+
+Given a scenario, develop code that declares and/or invokes overridden or overlo
+aded methods and code that declares and/or invokes superclass, overridden, or ov
+erloaded constructors.
+
+Dato uno scenario, sviluppare: Codice che dichiara e/o invoca metodi sovrascritt
+i o sovraccaricati; Codice che dichiara e/o invoca costruttori di sovrascritti, 
+sovraccaricati o di superclasse.
 --------------------------------------------------------------------------------
 5.5 INHERITANCE
 
