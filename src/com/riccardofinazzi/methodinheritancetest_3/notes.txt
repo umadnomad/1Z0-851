@@ -1,0 +1,1 @@
+Tested books page 106, given a superclass with a protected method, given a subclass inheriting said protected method from said superclass, I tried to change the method\s access level to the less restrictive modifier public. it works
