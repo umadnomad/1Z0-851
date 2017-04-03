@@ -1,24 +1,64 @@
-1.1 ALL KIND OF CLASSES, INTERF, ENUM, PACKAGE, IMPORTS
+1.1 DECLARATION OF CLASSES, INTERFACES, ENUMS, and appropiate use of PACKAGE, IM
+PORTS
 
-Develop code that declares classes ( including abstract and all forms of nested classes ), interfaces, and enums, and includes the appropiate use of package and import statements ( including static imports ).
+Develop code that declares classes ( including abstract and all forms of nested 
+classes ), interfaces, and enums, and includes the appropiate use of package and
+ import statements ( including static imports ).
 
-Sviluppare codice che dichiara classi ( includendo quelle astratte e tutte le forme di classi nidificate ), interfacce, enumerazioni, includendo l'uso appropiato degli statement package e import ( includendo gli static imports ).
+Sviluppare codice che dichiara classi ( includendo quelle astratte e tutte le fo
+rme di classi nidificate ), interfacce, enumerazioni, includendo l'uso appropiat
+o degli statement package e import ( includendo gli static imports ).
 --------------------------------------------------------------------------------
 1.2 INTERFACES
 
-Develop code that declares an interface. Develop code that extends an abstract class.
+Develop code that declares an interface. Develop code that extends an abstract c
+lass.
 
-Sviluppare codice che dichiara una interfaccia. Sviluppare codice che estende una classe astratta.
+Sviluppare codice che dichiara una interfaccia. Sviluppare codice che estende un
+a classe astratta.
 --------------------------------------------------------------------------------
 1.3 VARIABLES
 
-Develop code that declares, initializes, and uses primitives, arrays, enums, and objects as static, istance, and local variables. Also, use legal identifiers for variable names.
+Develop code that declares, initializes, and uses primitives, arrays, enums, and
+ objects as static, istance, and local variables. Also, use legal identifiers fo
+r variable names.
 
-Sviluppare codice che dichiara, inizializza, usa primitivi, array, enums, oggetti come variabili statiche, di istanza e locali. Utilizzare inoltre identificatori legali come nomi delle variabili.
+Sviluppare codice che dichiara, inizializza, usa primitivi, array, enums, oggett
+i come variabili statiche, di istanza e locali. Utilizzare inoltre identificator
+i legali come nomi delle variabili.
 --------------------------------------------------------------------------------
 1.4 METHODS
 
-Develop code that declares both static and non static methods, and - if appropiate - use method names that adhere to the JavaBeans naming standards. Also develop code that declares and uses a variable-length argument list.
+Develop code that declares both static and non static methods, and - if appropia
+te - use method names that adhere to the JavaBeans naming standards. Also develo
+p code that declares and uses a variable-length argument list.
 
-Sviluppare codice che dichiara metodi statici e non e, - se applicabile - dare loro nomi che aderiscono agli standard di nomenclatura JavaBeans. Sviluppare inoltre codice che dichiara e usa una lista di argomenti dalla lunghezza variabile.
+Sviluppare codice che dichiara metodi statici e non e, - se applicabile - dare l
+oro nomi che aderiscono agli standard di nomenclatura JavaBeans. Sviluppare inol
+tre codice che dichiara e usa una lista di argomenti dalla lunghezza variabile.
+--------------------------------------------------------------------------------
+5.1 ENCAPSULATION
+
+Develop code that implements thight encapsulation, loose coupling, and high cohe
+sion in classes, and describe the benefis
+
+Sviluppare classi indipendenti tra loro, di grande coesione interna e facenti us
+o di incapsulamento stretto
+--------------------------------------------------------------------------------
+5.2 POLYMORPHISM
+
+Given a scenario, develop code that demonstrates the use of polymorphism. Furthe
+r, determine when casting will be necessary and recognize compiler vs. runtime e
+rrors related to object reference casting.
+
+Dato un certo scenario, sviluppare codice che dimostra l'uso del polimorfismo. I
+noltre, stabilire quando sarà necessario fare un Cast e saper discernere gli er
+rori, di compilazione rispetto a quelli di esecuzione, inerenti al cast di refer
+enze di oggetti
+--------------------------------------------------------------------------------
+5.5 INHERITANCE
+
+Develop code that implements "is-a" and/or "has-a" relationship
+
+Sviluppare codice che fa uso delle relazioni "è-un" - "ha-un"
 --------------------------------------------------------------------------------
