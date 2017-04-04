@@ -5,6 +5,7 @@
 !/src
 /src/sources.txt
 
+/**/*.class
 /classes/*
 !/classes/placeholder
 
