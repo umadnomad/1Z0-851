@@ -47,13 +47,25 @@ Dato il codice in esempio, determinare se un metodo sovrascrive o sovraccarica c
 orrettamente un'altro metodo e identificare, inoltre, i valori di ritorno leciti
  (includendo i ritorni covariati) di tale metodo.
 --------------------------------------------------------------------------------
+1.6 CONSTRUCTORS AND ISTANTIATION
+
+Given a set of classes and superclasses, develop constructors for one or more of
+ the classes. Given a class declaration, determine if a default constructor will
+ be created, and if so, determine the behaviour of that constructor. Given a nes
+ted or nonnested class listing, write code to istantiate the class.
+
+Data una serie di classi e superclassi, si sviluppino i relativi costruttori. Da
+ta una dichiarazione di classe, stabilire se il costruttore di default verrà cr
+eato e, così fosse, determinare il comportamento di tale costruttore. Data una 
+classe nidificata o non, scrivere il codice necessario alla sua istanziazione.
+--------------------------------------------------------------------------------
 5.1 ENCAPSULATION
 
 Develop code that implements thight encapsulation, loose coupling, and high cohe
-sion in classes, and describe the benefis
+sion in classes, and describe the benefis.
 
 Sviluppare classi indipendenti tra loro, di grande coesione interna e facenti us
-o di incapsulamento stretto. Descrirne infine i benefici.
+o di incapsulamento stretto; Descriverne i benefici.
 --------------------------------------------------------------------------------
 5.2 POLYMORPHISM
 
@@ -66,7 +78,16 @@ e, stabilire quando sarà necessario fare un Cast e saper discernere errori di c
 ompilazione rispetto a quelli di esecuzione inerenti al cast di referenze di ogg
 etti
 --------------------------------------------------------------------------------
-5.4 OVERLOADED/OVERRIDDEN METHOD DECLARATION AND INVOCATIONS
+5.3 ACCESS MODIFIERS ON INHERITANCE
+
+Explain the effect of modifiers on inheritance with respect to constructors, ins
+tance or static variables, and instance or static methods.
+
+Si illustri l'effetto dei modificatori di accesso sulla ereditarietà rispetto a
+i costruttori, alle variabili statiche o di istanza e ai metodi statici o di ist
+anza.
+--------------------------------------------------------------------------------
+5.4 OVERLOADED/OVERRIDDEN METHODS DECLARATION AND INVOCATION
 
 Given a scenario, develop code that declares and/or invokes overridden or overlo
 aded methods and code that declares and/or invokes superclass, overridden, or ov
@@ -82,3 +103,9 @@ Develop code that implements "is-a" and/or "has-a" relationship
 
 Sviluppare codice che fa uso delle relazioni "è-un" - "ha-un"
 --------------------------------------------------------------------------------
+
+
+
+
+
+
