@@ -1,3 +1,5 @@
+package com.riccardofinazzi;
+
 class Foo {
 	static final int test; // this var must be finalized before constructor ends
 	/*
