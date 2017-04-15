@@ -20,12 +20,12 @@ a classe astratta.
 1.3 VARIABLES
 
 Develop code that declares, initializes, and uses primitives, arrays, enums, and
- objects as static, istance, and local variables. Also, use legal identifiers fo
-r variable names.
+ objects as static, instance, and local variables. Also, use legal identifiers f
+or variable names.
 
-Sviluppare codice che dichiara, inizializza e usa primitivi, array, enums e ogge
-tti come variabili statiche, di istanza e locali. Utilizzare inoltre identificat
-ori legali come nomi delle variabili.
+Sviluppare codice che dichiara, inizializza ed usa primitivi, array, enums e ogg
+etti come variabili statiche, di istanza e locali. Utilizzare inoltre identifica
+tori legali come nomi delle variabili.
 --------------------------------------------------------------------------------
 1.4 METHODS
 
@@ -103,9 +103,21 @@ Develop code that implements "is-a" and/or "has-a" relationship
 
 Sviluppare codice che fa uso delle relazioni "è-un" - "ha-un"
 --------------------------------------------------------------------------------
+7.3 PASSING VARIABLES INTO METHODS
 
+Determine the effect upon object references and primitive values when they are p
+assed into methods that perform assignments or other modifying operations on the
+ parameters.
 
+Determinare l'effetto che si ha sulle referenze ad oggetto e valori primitivi qu
+ando essi vengono passato come argomenti a metodi che effettuano assegnazioni o 
+altre operazioni di modifica sui parametri.
+--------------------------------------------------------------------------------
+7.6 ASSIGNMENT OPERATORS
 
+Develop code that correctly applies the appropiate operators including assignmen
+t operators (limited to: =, +=, -=)...
 
-
+Sviluppare codice che fa uso appropiato degli operatori, includendo gli operator
+i di assegnazione (limitati a: =, +=, -=)...
 
