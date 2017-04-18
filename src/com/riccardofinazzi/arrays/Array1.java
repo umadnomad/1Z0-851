@@ -2,16 +2,35 @@ package com.riccardofinazzi.arrays;
 
 import java.util.*;
 
+class Feline {}
+class Cat extends Feline {}
+
 public class Array1 {
 
+	Feline[][] feline;
+	
 	int[][] multidim_a;
 	int[][] multidim_b;
+	int[][] multidim_c;
+	
+	/* Page 223 follow up */
+	{
+			multidim_c 		= new int[3][];
+	 		multidim_c[0]	= new int[3];
+	 		multidim_c[1]	= new int[3];
+	 		multidim_c[2]	= new int[3];
+	}
+	
 	
 	/* page 228 */
 	int[]	monodim_scores;
 	int[][] multidim_scores;
 	
 	void testOutOfBounds() {
+		
+		feline = new Cat[3][];	/* Testing if a 2D array ref var can refer to a 2D arra
+		 * y object of its subtype. Yes it works */
+		
 		
 		multidim_a = new int[3][3]; // 3 . 3
 		/*  ___ ____ ____ ____
@@ -24,7 +43,13 @@ public class Array1 {
 		
 		
 		multidim_b = new int[3][];		// 3 . x
-		// These are not working inside class declaration, marked this page for review
+		// These are not working inside class declaration, marked page 223 for review
+		/* Update, answer found, logical noob error: The places in a class where you c
+		 * an perform operations are:
+		 * 1) Within constructors
+		 * 2) Within methods
+		 * 3) Within static or instance initialization blocks
+		 */
 		multidim_b[0] = new int[3];		// x = 3
 		multidim_b[1] = new int[7];		// x = 7
 		multidim_b[2] = new int[2];		// x = 2
