@@ -1,9 +1,15 @@
 package com.riccardofinazzi.arrays;
 
+import java.util.*;
+
 public class Array1 {
 
 	int[][] multidim_a;
 	int[][] multidim_b;
+	
+	/* page 228 */
+	int[]	monodim_scores;
+	int[][] multidim_scores;
 	
 	void testOutOfBounds() {
 		
@@ -27,8 +33,53 @@ public class Array1 {
 		 * |_1_|_10_|_11_|_12_|_13_|_14_|_15_|_16_|
 		 * |_2_|_20_|_21_|
 		 */
+		
+		/* page 228 */
+		monodim_scores  = new int[3];
+		
+		monodim_scores[0] = 1;
+		monodim_scores[1] = 2;
+		monodim_scores[2] = 3;
+		
+		
+		multidim_scores = new int[3][];
+		
+		multidim_scores[0] = new int[4];
+		multidim_scores[0][0] = 5;
+		multidim_scores[0][1] = 2;
+		multidim_scores[0][2] = 4;
+		multidim_scores[0][3] = 7;
+		
+		multidim_scores[1] = new int[2];
+		multidim_scores[1][0] = 9;
+		multidim_scores[1][1] = 2;
+		
+		multidim_scores[2] = new int[2];
+		multidim_scores[2][0] = 3;
+		multidim_scores[2][1] = 4;
+		
+		
+		System.out.println("Monodimensional Array Print");
+		System.out.println("Arrays.toString(Obj)");
+		System.out.println();
+		System.out.println("Result: " + Arrays.toString(monodim_scores));
+		System.out.println();
+		
+		System.out.println("Multidimensional Array Print");
+		System.out.println("Arrays.deepToString(Obj)");
+		System.out.println();
+		System.out.println("Result: " + Arrays.deepToString(multidim_scores));
+		System.out.println();
+		
+		System.out.println("Multidimensional Array Nested For Loops Print");
+		System.out.println("Result:");
+		for (int i = 0; i < multidim_scores.length; i++) {
+			for (int j = 0; j < multidim_scores[i].length; j++) {
+				System.out.print(multidim_scores[i][j] + " ");
+			}
+			System.out.println();
+		}
 	}
-	
 }
 
 class Array1TestDrive {
