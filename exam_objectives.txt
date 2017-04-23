@@ -59,6 +59,16 @@ ta una dichiarazione di classe, stabilire se il costruttore di default verrà cr
 eato e, così fosse, determinare il comportamento di tale costruttore. Data una 
 classe nidificata o non, scrivere il codice necessario alla sua istanziazione.
 --------------------------------------------------------------------------------
+3.1 WRAPPER CLASSES AND BOXING
+
+Develop code that uses the primitive wrapper classes (such as Boolean, Character
+, Double, Integer, etc.), and/or autoboxing & unboxing. Discuss the differences 
+between the String, StringBuilder, and StringBuffer classes.
+
+Sviluppare codice che fa uso delle classi wrapper dedicate ai primitivi (come Bo
+olean, Character, Double, Integer etc.) e/o dell'autoboxing & unboxing. Si illus
+tri la differenza tra cle classi String, StringBuilder e StringBuffer.
+--------------------------------------------------------------------------------
 5.1 ENCAPSULATION
 
 Develop code that implements thight encapsulation, loose coupling, and high cohe
