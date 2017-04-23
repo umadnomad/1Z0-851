@@ -6,8 +6,8 @@ classes ), interfaces, and enums, and includes the appropiate use of package and
  import statements ( including static imports ).
 
 Sviluppare codice che dichiara classi ( includendo le classi astratte e tutte le
- forme di classi nidificate ), interfacce ed enumerazioni e fa uso appropiato de
-gli statement package e import ( includendo gli static imports ).
+ forme di classi nidificate ), interfacce, enumerazioni, e fa uso appropiato deg
+li statement package ed import ( includendo gli static imports ).
 --------------------------------------------------------------------------------
 1.2 INTERFACES
 
@@ -35,7 +35,7 @@ p code that declares and uses a variable-length argument list.
 
 Sviluppare codice che dichiara metodi statici e non e, - se applicabile - dare l
 oro nomi che aderiscono agli standard di nomenclatura JavaBeans. Sviluppare inol
-tre codice che dichiara e usa parametri dalla lunghezza variabile.
+tre codice che dichiara ed usa parametri dalla lunghezza variabile.
 --------------------------------------------------------------------------------
 1.5 DETERMINE CORRECT OVERRIDE/OVERLOAD
 
@@ -54,10 +54,10 @@ Given a set of classes and superclasses, develop constructors for one or more of
  be created, and if so, determine the behaviour of that constructor. Given a nes
 ted or nonnested class listing, write code to istantiate the class.
 
-Data una serie di classi e superclassi, si sviluppino i relativi costruttori. Da
-ta una dichiarazione di classe, stabilire se il costruttore di default verrà cr
-eato e, così fosse, determinare il comportamento di tale costruttore. Data una 
-classe nidificata o non, scrivere il codice necessario alla sua istanziazione.
+Dato un set di classi e superclassi, si sviluppino i relativi costruttori. Data 
+una dichiarazione di classe, stabilire se il costruttore di default verrà creat
+o e, così fosse, determinare il comportamento di tale costruttore. Data una cla
+sse nidificata o non, scrivere il codice necessario alla sua istanziazione.
 --------------------------------------------------------------------------------
 3.1 WRAPPER CLASSES AND BOXING
 
@@ -67,7 +67,7 @@ between the String, StringBuilder, and StringBuffer classes.
 
 Sviluppare codice che fa uso delle classi wrapper dedicate ai primitivi (come Bo
 olean, Character, Double, Integer etc.) e/o dell'autoboxing & unboxing. Si illus
-tri la differenza tra cle classi String, StringBuilder e StringBuffer.
+tri la differenza tra le classi String, StringBuilder e StringBuffer.
 --------------------------------------------------------------------------------
 5.1 ENCAPSULATION
 
@@ -83,10 +83,10 @@ Given a scenario, develop code that demonstrates the use of polymorphism. Furthe
 r, determine when casting will be necessary and recognize compiler vs. runtime e
 rrors related to object reference casting.
 
-Dato uno scenario, sviluppare codice che dimostra l'uso del polimorfismo. Inoltr
-e, stabilire quando sarà necessario fare un Cast e saper discernere errori di c
-ompilazione rispetto a quelli di esecuzione inerenti al cast di referenze di ogg
-etti
+Dato uno scenario, sviluppare codice che mostra l'uso del polimorfismo. Inoltre,
+ determinare quando il Casting è necessario e saper distinguere gli errori di c
+ompilazione rispetto a quelli di esecuzione per ciò che è inerente al cast di 
+referenze di oggetti
 --------------------------------------------------------------------------------
 5.3 ACCESS MODIFIERS ON INHERITANCE
 
@@ -104,8 +104,8 @@ aded methods and code that declares and/or invokes superclass, overridden, or ov
 erloaded constructors.
 
 Dato uno scenario, sviluppare: Codice che dichiara e/o invoca metodi sovrascritt
-i o sovraccaricati; Codice che dichiara e/o invoca costruttori di sovrascritti, 
-sovraccaricati o di superclasse.
+i o sovraccaricati; Codice che dichiara e/o invoca costruttori sovrascritti, sov
+raccaricati o di superclasse.
 --------------------------------------------------------------------------------
 5.5 INHERITANCE
 
@@ -120,8 +120,20 @@ assed into methods that perform assignments or other modifying operations on the
  parameters.
 
 Determinare l'effetto che si ha sulle referenze ad oggetto e valori primitivi qu
-ando essi vengono passato come argomenti a metodi che effettuano assegnazioni o 
+ando essi vengono passati come argomenti a metodi che effettuano assegnazioni o 
 altre operazioni di modifica sui parametri.
+--------------------------------------------------------------------------------
+7.4 GARBAGE COLLECTION
+
+Given a code example, recognize the point at which and object becomes eligible f
+or garbage collection, and determine what is and is not guaranteed by the garbag
+e collection system, and recognize the behaviors of the Object finalize() method
+.
+
+Dato il codice in esempio, si identifichi il punto nel quale un oggetto diventa 
+idoneo per la garbage collection, si illustri inoltre: Cosa è/non è garantito 
+dal sistema di garbage collection; Il comportamento del metodo finalize() della 
+classe Object.
 --------------------------------------------------------------------------------
 7.6 ASSIGNMENT OPERATORS
 
@@ -130,4 +142,3 @@ t operators (limited to: =, +=, -=)...
 
 Sviluppare codice che fa uso appropiato degli operatori, includendo gli operator
 i di assegnazione (limitati a: =, +=, -=)...
-
