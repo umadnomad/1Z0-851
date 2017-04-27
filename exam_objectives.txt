@@ -59,6 +59,14 @@ una dichiarazione di classe, stabilire se il costruttore di default verrà creat
 o e, così fosse, determinare il comportamento di tale costruttore. Data una cla
 sse nidificata o non, scrivere il codice necessario alla sua istanziazione.
 --------------------------------------------------------------------------------
+2.1 IF AND SWITCH STATEMENTS
+
+Develop code that implements an if or switch statement; and identify legal argum
+ent types for these statements.
+
+Sviluppare codice che implementa un if o switch statement ed identificare i tipi
+ di argomenti leciti per detti statements.
+--------------------------------------------------------------------------------
 3.1 WRAPPER CLASSES AND BOXING
 
 Develop code that uses the primitive wrapper classes (such as Boolean, Character
