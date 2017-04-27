@@ -138,7 +138,15 @@ classe Object.
 7.6 ASSIGNMENT OPERATORS
 
 Develop code that correctly applies the appropiate operators including assignmen
-t operators (limited to: =, +=, -=)...
+t operators (limited to: =, +=, -=), arithmetic operators (limited to: +, -, *, 
+/, %, ++, --), relational operators (limited to: <, <=, >, >=, ==, !=), the inst
+anceof operator, logical operators (limited to: &, |, ^, !, &&, ||), and the con
+ditional operator (? :), to produce a desidered result. Write code that determin
+es the equality of two objects or two primitives.
 
-Sviluppare codice che fa uso appropiato degli operatori, includendo gli operator
-i di assegnazione (limitati a: =, +=, -=)...
+Sviluppare codice che fa uso appropiato degli operatori, includendo operatori di
+ assegnazione (limitati a: =, +=, -=), operatori aritmetici (limitati a: +, -, *
+, /, %, ++, --), operatori relazionali (limitati a: <, <=, >, >=, ==, !=), opera
+tori logici (limitati a: &, |, ^, !, &&, ||) e gli operatori condizionale (? :) 
+ed instanceof per produrre il risultato desiderato. Scrivere codice che determin
+a l'eguaglianza di due oggetti o due primitivi.
