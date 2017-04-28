@@ -67,6 +67,18 @@ ent types for these statements.
 Sviluppare codice che implementa un if o switch statement ed identificare i tipi
  di argomenti leciti per detti statements.
 --------------------------------------------------------------------------------
+2.2 LOOPS AND ITERATORS
+
+Develop code that implements all forms of loops and iterators, including the use
+ of for, the enhanced for loop (for-each), do, while, labels, break, and continu
+e; and explain the values taken by loop counter variables during and after loop 
+execution.
+
+Sviluppare codice che implementa tutte le forme di loop e iteratori includendo l
+'uso di for, for loop avanzato (for-each), do, while, labels, break e continue; 
+Spiegare i valori assunti dalle variabili di conteggio del loop durante e dopo l
+a sua esecuzione.
+--------------------------------------------------------------------------------
 3.1 WRAPPER CLASSES AND BOXING
 
 Develop code that uses the primitive wrapper classes (such as Boolean, Character
