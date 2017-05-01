@@ -79,6 +79,26 @@ Sviluppare codice che implementa tutte le forme di loop e iteratori includendo l
 Spiegare i valori assunti dalle variabili di conteggio del loop durante e dopo l
 a sua esecuzione.
 --------------------------------------------------------------------------------
+2.3 EXCEPTION CLASSES, EXCEPTION-THROWING METHODS, EXCEPTION HANDLING CLAUSES
+
+Develop code that makes use of exceptions and exception handling clauses (try, c
+atch, finally), and declares methods and overriding methods that throw exception
+s.
+
+Sviluppare codice che fa uso di eccezioni, delle clausole di gestione delle ecce
+zioni (try, catch, finally) e che dichiara metodi e metodi sovrascriventi che ge
+ttano eccezioni.
+--------------------------------------------------------------------------------
+2.4 EFFECT OF AN EXCEPTION ARISING
+
+Recognize the effect of an exception arising at a specific point in a code fragm
+ent. Note that the exception may be a runtime exception, a checked exception, or
+ an error.
+
+Riconoscere l'effetto di una eccezione emersa da un punto specifico in un framme
+nto di codice. Nota che l'eccezione può essere una runtime exception, una check
+ed exception, un errore.
+--------------------------------------------------------------------------------
 3.1 WRAPPER CLASSES AND BOXING
 
 Develop code that uses the primitive wrapper classes (such as Boolean, Character
