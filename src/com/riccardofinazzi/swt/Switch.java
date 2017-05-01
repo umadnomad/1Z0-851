@@ -4,7 +4,9 @@ public class Switch {
 	
 	public static void main(String[] args) {
 		
-		new Switch().testString();
+		Switch swt = new Switch();
+		swt.testString();
+		swt.exercise5_1();
 		
 	}
 	
