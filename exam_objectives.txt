@@ -87,7 +87,7 @@ s.
 
 Sviluppare codice che fa uso di eccezioni, delle clausole di gestione delle ecce
 zioni (try, catch, finally) e che dichiara metodi e metodi sovrascriventi che ge
-ttano eccezioni.
+nerano eccezioni.
 --------------------------------------------------------------------------------
 2.4 EFFECT OF AN EXCEPTION ARISING
 
@@ -96,8 +96,22 @@ ent. Note that the exception may be a runtime exception, a checked exception, or
  an error.
 
 Riconoscere l'effetto di una eccezione emersa da un punto specifico in un framme
-nto di codice. Nota che l'eccezione può essere una runtime exception, una check
-ed exception, un errore.
+nto di codice. Nota che l'eccezione può essere una runtime (unchecked) exceptio
+n, una checked exception, o un errore.
+--------------------------------------------------------------------------------
+2.5 COMMON EXCEPTION AND ERRORS
+
+Recognize situations that will result in any of the following being thrown, unde
+rstand which of these are thrown by the virtual machine and recognize situations
+ in which others should be thrown programmatically.
+
+Riconoscere situazioni che causeranno una delle seguenti eccezioni, discernere q
+uali di queste sono generate dalla virtual machine e saper riconoscere situazion
+i nelle quali le restanti dovrebbero essere generate manualmente.
+
+ArrayIndexOutOfBoundsException, ClassCastException, IllegalArgumentException, Il
+legalStateException, NullPointerException, NumberFormatException, AssertionError
+, ExceptionInInitializerError, StackOverflowError, or NoClasDefFoundError.
 --------------------------------------------------------------------------------
 3.1 WRAPPER CLASSES AND BOXING
 
