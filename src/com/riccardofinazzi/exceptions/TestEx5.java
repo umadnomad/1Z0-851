@@ -16,15 +16,20 @@ class BadFoodException extends Exception {
 	}
 	
 	void checkFood(String food) throws BadFoodException {
+		boolean success = false;
 		String[] yums = {"pizza","kebab","sweet","fussy"};
 		
 		for (String in:yums) {
 			if (in.equals(food.trim())) {
 				System.out.println("A " + food + " tastes yum!");
-				return;
+				success = true;
+				break;
 			}
 		}
-		throw new BadFoodException();
+		if (!success)
+			throw new BadFoodException();
+		else
+			return;
 	}
 	
 }
