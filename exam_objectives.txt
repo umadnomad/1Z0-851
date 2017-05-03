@@ -85,9 +85,15 @@ Develop code that makes use of exceptions and exception handling clauses (try, c
 atch, finally), and declares methods and overriding methods that throw exception
 s.
 
+Develop code that makes use of assertions, and distinguish appropiate from inapp
+ropiate uses of assertions.
+
 Sviluppare codice che fa uso di eccezioni, delle clausole di gestione delle ecce
 zioni (try, catch, finally) e che dichiara metodi e metodi sovrascriventi che ge
 nerano eccezioni.
+
+Sviluppare codice che fa uso di asserzioni, distinguire l'uso appropiato dall'us
+o inappropiato di asserzioni.
 --------------------------------------------------------------------------------
 2.4 EFFECT OF AN EXCEPTION ARISING
 
