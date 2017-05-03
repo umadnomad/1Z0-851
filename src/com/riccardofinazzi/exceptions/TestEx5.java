@@ -6,7 +6,7 @@ class BadFoodException extends Exception {
 	
 	public static void main(String[] args) {
 		try {
-			new BadFoodException().checkFood(args[0]);
+			new BadFoodException().checkFood(args[0].trim());
 		} catch (ArrayIndexOutOfBoundsException ex) {
 			System.out.println("you must pass this program an argument");
 			System.exit(0);
@@ -20,7 +20,7 @@ class BadFoodException extends Exception {
 		String[] yums = {"pizza","kebab","sweet","fussy"};
 		
 		for (String in:yums) {
-			if (in.equals(food.trim())) {
+			if (in.equals(food)) {
 				System.out.println("A " + food + " tastes yum!");
 				success = true;
 				break;
