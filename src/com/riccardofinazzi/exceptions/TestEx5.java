@@ -26,10 +26,8 @@ class BadFoodException extends Exception {
 				break;
 			}
 		}
-		if (!success)
-			throw new BadFoodException();
-		else
-			return;
+		if (!success) throw new BadFoodException();
+		else return;
 	}
 	
 }
