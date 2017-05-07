@@ -128,7 +128,7 @@ between the String, StringBuilder, and StringBuffer classes.
 Sviluppare codice che fa uso delle classi wrapper dedicate ai primitivi (come Bo
 olean, Character, Double, Integer etc.) e/o dell'autoboxing & unboxing. Si illus
 tri la differenza tra le classi String, StringBuilder e StringBuffer.
-
+--------------------------------------------------------------------------------
 3.2 FILE NAVIGATION AND I/O
 
 Given a scenario involving navigating file systems, reading from files, or writi
@@ -141,6 +141,17 @@ uenti classi (a volte in combinazione tra loro) di java.io:
 
 BufferedReader, BufferedWriter, File, FileReader, FileWriter, PrintWriter, and C
 onsole.
+--------------------------------------------------------------------------------
+3.3 SERIALIZATION
+
+Develop code that serializes and/or de-serializes objects using the following AP
+Is from java.io:
+
+Sviluppare codice che serializza e/o deserializza oggetti utilizzando le seguent
+i API di java.io:
+
+DataInputStream, DataOutputStream, FileInputStream, FileOutputStream, ObjectInpu
+tStream, ObjectOutputStream, and Serializable.
 --------------------------------------------------------------------------------
 5.1 ENCAPSULATION
 
