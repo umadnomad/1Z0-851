@@ -26,7 +26,7 @@ public class DateEx {
 
 	/* Get an object that lets you perform date and time calculations in a differen
 	 * t locale */
-		Locale loc = new Locale("it","IT");		// ISO 639-1
+		Locale loc = new Locale("it","IT");		// ISO 639-1 | ISO 3166-1 alpha-2
 		Calendar c2 = Calendar.getInstance(loc);
 		c2.setTime(d);
 		System.out.println(c1.getTime().toString());
