@@ -35,21 +35,25 @@ public class DateEx {
 	 * mat it for output in different locales with different date styles*/
 		Calendar c3 = Calendar.getInstance();
 		
-		Locale loc1 = new Locale("ch","CH");
-		Locale loc2 = new Locale("ar","SA");
+		// the PIGS
+		Locale portugal =	new Locale("pt","PT");
+		Locale italy	=	new Locale("it","IT");
+		// it had to be Greece, but greece is not even supported
+		Locale germany	=	new Locale("de","DE");
+		Locale spain	=	new Locale("es","ES");
 		
 		DateFormat[] dfa = new DateFormat[10];
 		dfa[0] = DateFormat.getInstance();
 		dfa[1] = DateFormat.getDateInstance();
-		dfa[2] = DateFormat.getDateInstance(DateFormat.SHORT,	loc1);
-		dfa[3] = DateFormat.getDateInstance(DateFormat.MEDIUM,	loc1);
-		dfa[4] = DateFormat.getDateInstance(DateFormat.LONG,	loc1);
-		dfa[5] = DateFormat.getDateInstance(DateFormat.FULL,	loc1);
+		dfa[2] = DateFormat.getDateInstance(DateFormat.SHORT,	italy);
+		dfa[3] = DateFormat.getDateInstance(DateFormat.MEDIUM,	italy);
+		dfa[4] = DateFormat.getDateInstance(DateFormat.LONG,	italy);
+		dfa[5] = DateFormat.getDateInstance(DateFormat.FULL,	italy);
 		
-		dfa[6] = DateFormat.getDateInstance(DateFormat.SHORT,	loc1);
-		dfa[7] = DateFormat.getDateInstance(DateFormat.MEDIUM,	loc2);
-		dfa[8] = DateFormat.getDateInstance(DateFormat.LONG,	loc2);
-		dfa[9] = DateFormat.getDateInstance(DateFormat.FULL,	loc2);
+		dfa[6] = DateFormat.getDateInstance(DateFormat.SHORT,	germany);
+		dfa[7] = DateFormat.getDateInstance(DateFormat.MEDIUM,	germany);
+		dfa[8] = DateFormat.getDateInstance(DateFormat.LONG,	germany);
+		dfa[9] = DateFormat.getDateInstance(DateFormat.FULL,	germany);
 		
 		c3.setTime(d);
 		Date d2 = c3.getTime();
@@ -68,16 +72,22 @@ public class DateEx {
 		
 	/* Locale's class getDisplayCountry() and getDisplayLanguage() methods test:
 	 * NB: These methods are NOT static! */
-		System.out.println("default	country: "	+ loc1.getDisplayCountry());
-		System.out.println("locale	country: "	+ loc1.getDisplayCountry(loc1));
-		System.out.println("default	country: "	+ loc2.getDisplayCountry());
-		System.out.println("locale	country: "	+ loc2.getDisplayCountry(loc2));
+		System.out.println("default	country: "	+ italy.getDisplayCountry());
+		System.out.println("locale	country: "	+ italy.getDisplayCountry(italy));
+		System.out.println("default	country: "	+ germany.getDisplayCountry());
+		System.out.println("locale	country: "	+ germany.getDisplayCountry(germany));
 		System.out.println("-");
-		System.out.println("default	language: "	+ loc1.getDisplayLanguage());
-		System.out.println("locale	language: "	+ loc1.getDisplayLanguage(loc1));
-		System.out.println("default	language: "	+ loc2.getDisplayLanguage());
-		System.out.println("locale	language: "	+ loc2.getDisplayLanguage(loc2));
-
+		System.out.println("default	language: "	+ italy.getDisplayLanguage());
+		System.out.println("locale	language: "	+ italy.getDisplayLanguage(italy));
+		System.out.println("default	language: "	+ germany.getDisplayLanguage());
+		System.out.println("locale	language: "	+ germany.getDisplayLanguage(germany));
+		System.out.println("-");
+		System.out.println("Bonus:");
+		Locale loc3 = new Locale("it", "IT");
+		System.out.println("'it','IT' locale representation of 'de','DE' country:	"	+ germany.getDisplayCountry(italy));
+		System.out.println("'it','IT' locale representation of 'de','DE' language:	"	+ germany.getDisplayLanguage(italy));
+		System.out.println("'de','DE' locale representation of 'it','IT' country:	"	+ italy.getDisplayCountry(germany));
+		System.out.println("'de','DE' locale representation of 'it','IT' language:	"	+ italy.getDisplayLanguage(germany));
 
 
 	/* Remember that you can get a particular Date object without having to deal w
