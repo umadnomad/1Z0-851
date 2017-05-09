@@ -136,8 +136,8 @@ ng to files, develop the correct solution using the following classes (sometimes
  in combination), from java.io:
 
 Dato uno scenario che implica la navigazione di file systems, la lettura di file
-s o la scrittura su files, sviluppare la corretta soluzione facendo uso dele seg
-uenti classi (a volte in combinazione tra loro) di java.io:
+s o la scrittura su files, sviluppare la corretta soluzione facendo uso delle se
+guenti classi (a volte in combinazione tra loro) di java.io:
 
 BufferedReader, BufferedWriter, File, FileReader, FileWriter, PrintWriter, and C
 onsole.
@@ -149,7 +149,7 @@ es, numbers and currency values for a specific locale; and, given a scenario, de
 termine the appropiate methods to use if you want to use the default locale or a
  specific locale. Describe the purpose and use of the java.util.Locale class.
 
-Utilizza le api J2SE standard del package java.text per formattare o parsificare
+Utilizza le API J2SE standard del package java.text per formattare o parsificare
  correttamente date, numeri e valute monetarie per una località specifica e, da
 to uno scenario, determinare i metodi appropiati qualora si volesse utilizzare l
 a località di default o una localitàS specifica. Descrivere lo scopo e l'uso d
@@ -169,6 +169,30 @@ i API di java.io:
 
 DataInputStream, DataOutputStream, FileInputStream, FileOutputStream, ObjectInpu
 tStream, ObjectOutputStream, and Serializable.
+--------------------------------------------------------------------------------
+3.5 PARSING, TOKENIZING, AND FORMATTING
+
+Write code that uses standard J2SE APIs in the java.util and java.util.regex pac
+kages to format or parse strings or streams. For strings, write code that uses t
+he Pattern and Matcher classes and the String.split method. Recognize and use re
+gular expression patterns for matching (limited to : .(dot), *(star), +(plus), ?
+, \d, \s, \w, [], () ). The use of *, +, and ? will be limited to greedy quantif
+iers, and the parenthesis operator will only be used as a grouping mechanism, no
+t for capturing content during matching. For streams, write code using the Forma
+tter and Scanner classes and the PrintWriter.format/printf methods. Recognize an
+d use formatting parameters (limited to: %b, %c, %d, %f, %s) in format strings.
+
+Scrivere codice che utilizza le API J2SE standard dei packages java.util e java.
+util.regex per formattare o parsificare stringhe o streams. Per le stringhe, scr
+ivere codice che utilizza le classi Pattern, Matcher e il metodo String.split. R
+iconoscere ed utilizzare le espressioni regolari ai fini di ricerca per corrispo
+ndenza (limitate a: .(punto), *(asterisco), +(più), ?, \d, \s, \w, [], () ). L'
+uso di *, + e ? sarà limitato ai greedy quantifiers e, le parentesi, verranno u
+tilizzate solamente come meccanismo di raggruppamento e non per catturare conten
+uto durante la ricerca per corrispondenza. Per gli streams, scrivere codice che 
+utilizza le classi Formatter, Scanner, e i metodi PrintWriter.format/printf. Ric
+onoscere e utilizzare i parametri di formattazione (limitati a: %b, %c, %d, %f, 
+%s).
 --------------------------------------------------------------------------------
 5.1 ENCAPSULATION
 
