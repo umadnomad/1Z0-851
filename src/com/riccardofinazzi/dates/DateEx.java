@@ -70,6 +70,14 @@ public class DateEx {
 		
 		System.out.println("---");
 		
+		System.out.println("Calendar.getInstance returns a concrete subclass of Calendar.");
+		System.out.println("In most of the world and by default for most versions of java, you'll be getting");
+		System.out.println("back a java.util.GregorianCalendar instance but this is not always the case; For");
+		System.out.println("instance, this is the true type of a Calendar object invoked with Thai Locale: ");
+		System.out.println(Calendar.getInstance(new Locale("th", "TH")).getClass());
+		
+		System.out.println("---");
+		
 	/* Locale's class getDisplayCountry() and getDisplayLanguage() methods test:
 	 * NB: These methods are NOT static! */
 		System.out.println("default	country: "	+ italy.getDisplayCountry());
@@ -105,17 +113,17 @@ public class DateEx {
 	 * In Java 8 you'd use java.time.ZonedDateTime, which is the Java 8 equivalent 
 	 * of Joda Time's DateTime. */
 
-		Calendar c4 = Calendar.getInstance();
+		Calendar c5 = Calendar.getInstance();
 		// Could have been
-		// Calendar c4 = Calendar.getInstance(TimeZone.getTimeZone("Europe/Rome"));
+		// Calendar c5 = Calendar.getInstance(TimeZone.getTimeZone("Europe/Rome"));
 		
 	/* Setting the date, you can go as deep as:
 	 * set(int year, int month, int date, int hourOfDay, int minute, int second)
 	 * IMPORTANT NOTES: 1) Months are 0 indexed, Days are not! 2) What you won't se
 	 * t will be generated starting off the current date/time */
-		c4.set(2012, Calendar.DECEMBER, 21, 19, 0, 0);
+		c5.set(2012, Calendar.DECEMBER, 21, 19, 0, 0);
 		
-		Date d3 = c4.getTime();
+		Date d3 = c5.getTime();
 		System.out.println(d3.toString());
 	
 	
