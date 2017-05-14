@@ -238,6 +238,14 @@ Develop code that implements "is-a" and/or "has-a" relationship
 
 Sviluppare codice che fa uso delle relazioni "è-un" - "ha-un"
 --------------------------------------------------------------------------------
+6.2 OVERRIDING HASHCODE() AND EQUALS()
+
+Distinguish between correct and incorrect overrides of corresponding hashCode an
+d equals methods, and explain the difference between == and the equals method.
+
+Discernere corrette ed incorrette sovrascritture dei metodi hashCode ed equals, 
+spiegare la differenza tra l'operatore relazionale == e il metodo equals.
+--------------------------------------------------------------------------------
 7.3 PASSING VARIABLES INTO METHODS
 
 Determine the effect upon object references and primitive values when they are p
