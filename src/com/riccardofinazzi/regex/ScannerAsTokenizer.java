@@ -32,7 +32,8 @@ public class ScannerAsTokenizer {
 		/* totally unnecessary as this fully mimics def behaviour, I put it here to n
 		 * ot forget the method */
 
-
+		/* Scanner.hasNext() simply tells you if there is a new delimted token.
+		 * Scanner.next() simply returns that token */
 		while(s1.hasNext()) {
 			if (		s1.hasNextInt()) {
 						al.add(s1.nextInt());		hits_i++;
