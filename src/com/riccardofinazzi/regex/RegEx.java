@@ -14,11 +14,11 @@ public class RegEx {
 		Pattern p = Pattern.compile(regex);
 		Matcher m = p.matcher(data);
 
-		StringBuilder sb = new StringBuilder(input);
+		StringBuilder sb = new StringBuilder(data);
 		
 		while(m.find()) {
 			//System.out.println(m.start() + " " + m.group());
-			if (m.start() -5 < 0 || m.end() + 5 > input.length()-1)
+			if (m.start() -5 < 0 || m.end() + 5 > data.length()-1)
 				continue;
 			else System.out.println(" ..." + sb.substring(m.start() - 5, m.end() + 5) + "...\t" + m.start() + "\t" + m.end());
 		}
