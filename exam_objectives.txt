@@ -238,6 +238,16 @@ Develop code that implements "is-a" and/or "has-a" relationship
 
 Sviluppare codice che fa uso delle relazioni "è-un" - "ha-un"
 --------------------------------------------------------------------------------
+6.1 COLLECTIONS
+
+Given a design scenario, determine which collection classes and/or interfaces sh
+ould be used to properly implement that design, including the use of the Compara
+ble interface.
+
+Dato uno scenario di progettazione, determinare quali classi collection e/o inte
+rfacce dovrebbero essere utilizzate per implementare tale design, includendo l'u
+so dell'interfaccia Comparable.
+--------------------------------------------------------------------------------
 6.2 OVERRIDING HASHCODE() AND EQUALS()
 
 Distinguish between correct and incorrect overrides of corresponding hashCode an
