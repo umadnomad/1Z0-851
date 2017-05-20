@@ -1,0 +1,3 @@
+# About ArrayList and HashSet
+http://stackoverflow.com/a/32552348/3640184
+http://stackoverflow.com/a/32552352
