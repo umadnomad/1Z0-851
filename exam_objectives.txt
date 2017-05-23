@@ -256,6 +256,25 @@ d equals methods, and explain the difference between == and the equals method.
 Discernere corrette ed incorrette sovrascritture dei metodi hashCode ed equals, 
 spiegare la differenza tra l'operatore relazionale == e il metodo equals.
 --------------------------------------------------------------------------------
+6.3 USING THE COLLECTIONS FRAMEWORK
+
+Write code that uses the NavigableSet and NavigableMap interfaces.
+
+Scrivere codice che fa uso delle interfacce NavigableSet and NavigableMap.
+--------------------------------------------------------------------------------
+6.5 USING THE COLLECTIONS FRAMEWORK
+
+Use capabilities in the java.util package to write code to manipulate a list by 
+sorting, performing a binary search, or converting the list to an array. Use the
+ java.util.Comparator and java.lang.Comparable interfaces to affect the sorting 
+of lists and arrays. Furthermore, recognize the effect of the "natural ordering"
+ of primitive wrapper classes and java.lang.String on sorting.
+
+Impiegare le possibilità offerte dal package java.util per scrivere codice che 
+manipola una lista riordinandola, effettua una ricerca binaria, o converte la li
+sta in un array. Utilizzare le interfacce java.util.Comparator e java.util.Compa
+rable per condizionare i criteri di riordinamento di liste e array. 
+--------------------------------------------------------------------------------
 7.3 PASSING VARIABLES INTO METHODS
 
 Determine the effect upon object references and primitive values when they are p
