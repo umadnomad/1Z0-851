@@ -1,6 +1,6 @@
 package com.riccardofinazzi;
 
-import food.Fruit;
+import com.riccardofinazzi.food.Fruit;
 
 class Apple extends Fruit {
 }
