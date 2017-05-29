@@ -125,9 +125,9 @@ Develop code that uses the primitive wrapper classes (such as Boolean, Character
 , Double, Integer, etc.), and/or autoboxing & unboxing. Discuss the differences 
 between the String, StringBuilder, and StringBuffer classes.
 
-Sviluppare codice che fa uso delle classi wrapper dedicate ai primitivi (come Bo
-olean, Character, Double, Integer etc.) e/o dell'autoboxing & unboxing. Si illus
-tri la differenza tra le classi String, StringBuilder e StringBuffer.
+Sviluppare codice che utilizza le classi wrapper dedicate ai primitivi (come Boo
+lean, Character, Double, Integer etc.) e/o dell'autoboxing & unboxing. Si illust
+ri la differenza tra le classi String, StringBuilder e StringBuffer.
 --------------------------------------------------------------------------------
 3.2 FILE NAVIGATION AND I/O
 
@@ -259,8 +259,38 @@ spiegare la differenza tra l'operatore relazionale == e il metodo equals.
 6.3 USING THE COLLECTIONS FRAMEWORK
 
 Write code that uses the NavigableSet and NavigableMap interfaces.
+/* Redundant in comma 6.4 */
 
-Scrivere codice che fa uso delle interfacce NavigableSet and NavigableMap.
+Scrivere codice che utilizza le interfacce NavigableSet and NavigableMap.
+/* Ridondante nel comma 6.4 */
+--------------------------------------------------------------------------------
+6.3 GENERIC TYPES
+
+Write code that uses the generic versions of the Collections API, in particular 
+the Set, List, and Map interfaces and implementation classes. Recognize the limi
+tations of the non generic Collections API and how to refactor code to use the g
+eneric versions.
+
+Scrivere codice che utilizza le versioni generiche del Collections Framework, in
+ particolare le interfacce Set, List, Map, e le classi implementanti. Riconoscer
+e i limiti delle API non generiche e saper rifattorizzare il codice esistente af
+finché questo faccia uso delle versioni generiche.
+--------------------------------------------------------------------------------
+6.4 GENERIC TYPES
+
+Develop code that makes proper use of type parameters in class/interface declara
+tions, instance variables, method arguments, and return types; and write generic
+ methods or methods that make use of wildcard types and understand the similarit
+ies and differences between these two approaches. Write code that uses the Navig
+ableSet and NavigableMap interfaces.
+/* Last part is redundant in comma 6.3 */
+
+Sviluppare codice che fa uso proprio dei parametri di tipo nelle dichiarazioni d
+i classi/interfacce, variabili di istanza, argomenti di metodo e tipi di ritorno
+; Scrivere metodi generici o metodi che fanno uso dei tipi jolly e comprendere d
+ifferenze e similitudini tra questi due aprocci. Scrivere codice che usa le inte
+rfacce NavigableSet e NavigableMap.  
+/* L'ultima parte è ridondante nel comma 6.3 */
 --------------------------------------------------------------------------------
 6.5 USING THE COLLECTIONS FRAMEWORK
 
