@@ -21,6 +21,6 @@ class Inserter {
 		 * which is a type safe Integer ArrayList.
 		 * This is NOT ok and at the same time no exception or error is thrown.
 		 * You will be aware of the problem at runtime during an iteration if pe
-		 * rforming type sensitive operations. */
+		 * rforming type sensitive operations. More on the book, page 606 */
 	}
 }
