@@ -194,6 +194,22 @@ utilizza le classi Formatter, Scanner, e i metodi PrintWriter.format/printf. Ric
 onoscere e utilizzare i parametri di formattazione (limitati a: %b, %c, %d, %f, 
 %s).
 --------------------------------------------------------------------------------
+4.1 DEFINING, INSTANTIATING, AND STARTING THREADS
+
+Write code to define, instantiate, and start new threads using both java.lang.Th
+read and java.lang.Runnable.
+
+Scrivere codice che definisce, istanza e avvia nuovi thread usando entrambe le c
+lassi java.lang.Thread e java.lang.Runnable.
+--------------------------------------------------------------------------------
+4.2 THREAD STATES AND TRANSITIONS
+
+Recognize the states in which a thread can exist, and identify ways in which a t
+hread can transition from one state to another.
+
+Riconoscere gli stati assumibili da un thread; identificare i modi nei quali un 
+thread può transire da uno stato all'altro.
+--------------------------------------------------------------------------------
 5.1 ENCAPSULATION
 
 Develop code that implements thight encapsulation, loose coupling, and high cohe
