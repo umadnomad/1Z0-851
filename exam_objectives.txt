@@ -210,6 +210,15 @@ hread can transition from one state to another.
 Riconoscere gli stati assumibili da un thread; identificare i modi nei quali un 
 thread può transire da uno stato all'altro.
 --------------------------------------------------------------------------------
+4.3 SYNCHRONIZING CODE
+
+Given a scenario, write code that makes appropiate use of object locking to prot
+ect static or instance variables from concurrent access problems.
+
+Dato uno scenario, scrivere codice che fa uso appropiato del locking di oggetti 
+per proteggere variabili statiche o di istanza da problemi di accesso contempora
+neo.
+--------------------------------------------------------------------------------
 5.1 ENCAPSULATION
 
 Develop code that implements thight encapsulation, loose coupling, and high cohe
