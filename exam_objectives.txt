@@ -219,6 +219,14 @@ Dato uno scenario, scrivere codice che fa uso appropiato del locking di oggetti
 per proteggere variabili statiche o di istanza da problemi di accesso contempora
 neo.
 --------------------------------------------------------------------------------
+4.4 THREAD INTERACTION
+
+Given a scenario, write code that makes appropiate use of wait, notify, or notif
+yAll.
+
+Dato uno scenario, scrivere codice che fa uso appropiato di wait, notify, o noti
+fyAll.
+--------------------------------------------------------------------------------
 5.1 ENCAPSULATION
 
 Develop code that implements thight encapsulation, loose coupling, and high cohe
